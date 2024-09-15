@@ -1,12 +1,124 @@
-- 👋 Hi, I’m @HGabriel-We
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+#Esse cenário é baseado em uma empresa fictícia:#
 
-<!---
-HGabriel-Web/HGabriel-Web is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+A Botium Toys é uma pequena empresa dos EUA que desenvolve e vende brinquedos. A empresa tem um único local físico, que serve como escritório principal, vitrine e depósito para seus produtos.
+No entanto, a presença on-line da Botium Toy cresceu, atraindo clientes nos EUA e no exterior. Como resultado, seu departamento de tecnologia da informação (TI) está sob pressão crescente
+para dar suporte ao mercado on-line em todo o mundo.
+
+A gerente do departamento de TI decidiu que é necessário realizar uma auditoria interna de TI. Ela está preocupada em manter a conformidade e as operações comerciais à medida que a empresa 
+cresce sem um plano claro. Ela acredita que uma auditoria interna pode ajudar a proteger melhor a infraestrutura da empresa e ajudá-la a identificar e reduzir possíveis riscos, ameaças ou 
+vulnerabilidades a ativos críticos. A gerente também está interessada em garantir a conformidade com os regulamentos relacionados ao processamento interno e à aceitação de pagamentos
+on-line e à realização de negócios na União Europeia (UE).
+
+O gerente de TI começa implementando a estrutura de segurança cibernética do National Institute of Standards and Technology (NIST CSF), estabelecendo um escopo e metas de auditoria,
+listando os ativos atualmente gerenciados pelo departamento de TI e concluindo uma Avaliação de riscos. O objetivo da auditoria é fornecer uma visão geral dos riscos e/ou multas que a 
+empresa pode sofrer devido ao estado atual de sua postura de segurança.
+
+#Escopo e objetivos da auditoria#
+
+Escopo: O escopo desta auditoria é definido como todo o programa de segurança da Botium Toys. Isso inclui seus ativos, como equipamentos e dispositivos dos funcionários, sua rede interna 
+e seus sistemas. 
+Objetivos: Avaliar os ativos existentes e preencher a lista de verificação de controles e conformidade para determinar quais controles e melhores práticas de conformidade precisam ser 
+implementados para melhorar a postura de segurança da Botium Toys.
+
+#Ativos circulantes#
+
+Os ativos gerenciados pelo Departamento de TI incluem: 
+
+- Equipamento local para necessidades de negócios no escritório  
+- Equipamentos dos funcionários: dispositivos do usuário final (desktops/laptops, smartphones), estações de trabalho remotas, fones de ouvido, cabos, teclados, mouses, estações de 
+acoplamento, câmeras de vigilância, etc.
+- Produtos de vitrine disponíveis para venda no varejo no local e online; armazenado no armazém adjacente da empresa
+- Gestão de sistemas, software e serviços: contabilidade, telecomunicações, banco de dados, segurança, comércio eletrônico e gestão de estoque
+- acesso à Internet
+- Rede interna
+- Retenção e armazenamento de dados
+- Manutenção de sistemas legados: sistemas em fim de vida que requerem monitoramento humano
+
+#Avaliação de risco:#
+
+Descrição do risco
+Atualmente, há uma gestão inadequada de ativos. Além disso, a Botium Toys não possui todos os controles adequados e pode não estar em total conformidade com os regulamentos e padrões
+internacionais e dos EUA. 
+
+Controle as melhores práticas
+A primeira das cinco funções do NIST CSF é Identificar. A Botium Toys precisará dedicar recursos para identificar ativos para que possam gerenciá-los de forma adequada. Além disso, 
+terão de classificar os activos existentes e determinar o impacto da perda de activos existentes, incluindo sistemas, na continuidade dos negócios.
+
+Pontuação de risco
+Numa escala de 1 a 10, a pontuação de risco é 8, o que é bastante elevado. Isto se deve à falta de controles e adesão às melhores práticas de conformidade.
+O impacto potencial da perda de um ativo é classificado como médio, porque o departamento de TI não sabe quais ativos estariam em risco. O risco para ativos ou multas por parte dos 
+órgãos governamentais é alto porque a Botium Toys não possui todos os controles necessários e não adere totalmente às melhores práticas relacionadas aos regulamentos de conformidade 
+que mantêm dados críticos privados/seguros.
+
+- Atualmente, todos os funcionários da Botium Toys têm acesso aos dados armazenados internamente e podem acessar os dados do titular do cartão e PII/SPII dos clientes.
+- Atualmente, a criptografia não é usada para garantir a confidencialidade das informações de cartão de crédito dos clientes que são aceitas, processadas, transmitidas e armazenadas 
+localmente no banco de dados interno da empresa. 
+- Os controles de acesso relativos ao privilégio mínimo e à separação de funções não foram implementados.
+- O departamento de TI garantiu disponibilidade e controles integrados para garantir a integridade dos dados.
+- O departamento de TI possui um firewall que bloqueia o tráfego com base em um conjunto de regras de segurança adequadamente definido.
+- O software antivírus é instalado e monitorado regularmente pelo departamento de TI.
+- O departamento de TI não instalou um sistema de detecção de intrusão (IDS).
+- Não existem planos de recuperação de desastres atualmente em vigor e a empresa não possui backups de dados críticos. 
+- O departamento de TI estabeleceu um plano para notificar a E.U. clientes dentro de 72 horas se houver uma violação de segurança. Além disso, políticas, procedimentos e processos de 
+privacidade foram desenvolvidos e são aplicados entre membros do departamento de TI/outros funcionários, para documentar e manter adequadamente os dados.
+- Embora exista uma política de senha, seus requisitos são nominais e não estão alinhados com os atuais requisitos mínimos de complexidade de senha (por exemplo, pelo menos oito
+caracteres, uma combinação de letras e pelo menos um número; caracteres especiais). 
+- Não existe um sistema centralizado de gerenciamento de senhas que imponha os requisitos mínimos da política de senhas, o que às vezes afeta a produtividade quando funcionários/fornecedores
+enviam um ticket ao departamento de TI para recuperar ou redefinir uma senha.
+- Embora os sistemas legados sejam monitorizados e mantidos, não existe um calendário regular para estas tarefas e os métodos de intervenção não são claros.
+- A localização física da loja, que inclui sede, frente de loja e armazém de produtos da Botium Toys, possui fechaduras suficientes, vigilância atualizada em circuito fechado de televisão
+(CCTV), bem como sistemas de detecção e prevenção de incêndio em funcionamento.
+
+#Lista de verificação de avaliação de controles:#
+Essa lista refere-se a avaliação de controles adotados atualmente pela Botium Toys 
+
+- Planos de recuperação de desastres                                                          Não                            
+- Políticas de senha                                                                          Sim
+- Separação de funções                                                                        Não
+- Firewall                                                                                    Sim
+- Sistema de detecção de intrusão (IDS)                                                       Não
+- Cópias de segurança                                                                         Não
+- Software antivírus                                                                          Sim
+- Monitoramento, manutenção e intervenção manual para sistemas legados                        Não
+- Criptografia                                                                                Não
+- Sistema de gerenciamento de senha                                                           Não
+- Fechaduras (escritórios, montra, armazém)                                                   Sim
+- Vigilância em circuito fechado de televisão (CCTV)                                          Sim
+- Detecção/prevenção de incêndio (alarme de incêndio, sistema de sprinklers, etc.)            Sim
+
+Essa lista refere-se a avaliação de praticas recomendadas de conformidades que são adotadas atualmente pela da Botium Toys 
+
+Lista de verificação de conformidade
+
+Padrão de segurança de dados da indústria de cartões de pagamento (PCI DSS)
+
+- Somente usuários autorizados têm acesso às informações do cartão de crédito dos clientes.   Não
+- As informações do cartão de crédito são armazenadas, aceitas, processadas e transmitidas    Sim
+internamente, em um ambiente seguro.
+- Implementa procedimentos de criptografia de dados para proteger melhor os dados e pontos    Não
+de contato de transações de cartão de crédito. 
+- Adota políticas seguras de gerenciamento de senhas.                                         Não
+
+Regulamento Geral de Proteção de Dados (GDPR) 
+
+- os dados dos clientes são mantidos privados/protegidos.                                     Não
+- Existe um plano em vigor para notificar a E.U. clientes dentro de 72 horas se seus dados    Sim
+forem comprometidos/houver uma violação.                                                      
+- Se certifica de que os dados sejam devidamente classificados e inventariados.               Não
+- Aplica políticas, procedimentos e processos de privacidade para documentar e manter os      Sim
+dados adequadamente.
+
+Controles de sistema e organizações (SOC tipo 1, SOC tipo 2)
+
+- Políticas de acesso de usuários são estabelecidas.                                          Não
+- Dados confidenciais (PII/SPII) são confidenciais/privados.                                  Não
+- A integridade dos dados garante que os dados sejam consistentes, completos, precisos e      Sim
+validados.
+- Os dados estão disponíveis para indivíduos autorizados a acessá-los.                        Não
+
+recomendações ao gerente de TI sobre quais controles e/ou melhores práticas de conformidade a Botium 
+Toys precisa implementar:
+
+
+
+
