@@ -114,10 +114,29 @@ Controles de sistema e organizações (SOC tipo 1, SOC tipo 2)
 - Dados confidenciais (PII/SPII) são confidenciais/privados.                                  Não
 - A integridade dos dados garante que os dados sejam consistentes, completos, precisos e      Sim
 validados.
-- Os dados estão disponíveis para indivíduos autorizados a acessá-los.                        Não
+- Os dados estão disponíveis para indivíduos autorizados a acessá-los.                        Sim
 
-recomendações ao gerente de TI sobre quais controles e/ou melhores práticas de conformidade a Botium 
-Toys precisa implementar:
+#Recomendações ao gerente de TI sobre quais controles e/ou melhores práticas de conformidade a Botium 
+Toys precisa implementar:#
+
+Tendo em vista todos os atribuitos apresentados, é necessario informar que há uma grave vulnerabilidade na 
+segurança dos ativos , com uma classificação de alto risco podendo representar uma ameaça se tais 
+incorformidades não forem  regularizadas.
+
+- Atualmente qualquer funcionario da empresa Botium Toys tem acesso a dados sensiveis de clientes
+È necescessario com urgencia a separação de funções e conceder acesso apenas a equipe autorizada a lidar 
+com esses registros.
+- implementar um Sistema de detecção de intrusão (IDS) 
+- Planos de recuperação de desastres isso incluí a realização de copias de segurança para que se 
+necessario a realização de um backup de dados.
+- Para maior segurança, a criptografia deve ser  usada para garantir a confidencialidade das informações 
+de cartão de crédito dos clientes que são aceitas, processadas, transmitidas e armazenadas localmente no 
+banco de dados interno da empresa.
+- Realizar uma orientação aos funcionarios sobre a criação de senhas fortes para que possa dificultar
+quaisquer ataques e roubos de identidade da organização.
+
+
+
 
 
 
